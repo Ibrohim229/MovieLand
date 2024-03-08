@@ -8,7 +8,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 
-window.increment = increment
-window.save = save
-window.reset = reset
+
 

@@ -76,8 +76,6 @@ function App() {
   )
 }
 
-window.increment = increment
-window.save = save
-window.reset = reset
+
 
 export default App
