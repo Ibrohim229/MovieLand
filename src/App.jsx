@@ -1,4 +1,4 @@
-// 965c3b62
+
 import { useEffect, useState } from "react"
 import "./App.css"
 import searchIcon from "../src/assets/search.svg"
@@ -33,11 +33,7 @@ function App() {
           placeholder="Search for movies"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key = "Enter") {
-              searchMovies(searchTerm)
-            }
-          }}
+
         />
         <img
           src={searchIcon}
